@@ -1,0 +1,15 @@
+.tmp
+.sass-cache
+.vagrant
+.DS_Store
+node_modules
+bower_components/
+dist/
+*-workspace
+.npm-debug.log
+.buildpath
+.project
+.settings
+coverage
+coverage.svg
+*.log
