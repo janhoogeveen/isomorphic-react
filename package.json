@@ -2,8 +2,7 @@
   "name": "isomorphic-react",
   "private": true,
   "version": "0.1.0",
-  "description": "",
-  "main": "index.js",
+  "main": "lib/server/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "clean": "rm -rf lib",
@@ -20,6 +19,7 @@
     "babel-loader": "^5.3.2",
     "express": "^4.13.3",
     "jade": "^1.11.0",
+    "node-libs-browser": "^0.5.2",
     "nodemon": "^1.4.1",
     "react": "^0.13.3",
     "react-hot-loader": "^1.2.9",

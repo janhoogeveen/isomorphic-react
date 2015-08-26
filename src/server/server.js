@@ -11,6 +11,7 @@ import routes from "../common/routes";
 
 app.get('/*', function (req, res) {  
   Router.run(routes, req.url, Handler => {
+  	console.log('Route picked up by Express');
     let content = React.renderToString(<Handler />);
     res.render('index', { content: content });
   });
