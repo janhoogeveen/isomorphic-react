@@ -21,10 +21,10 @@ Now go to 0.0.0.0:3000 and that's it!
 - [X] Set up a good example of a routing config
 - [ ] Determine if the current 404 solution is reliable
 - [ ] Add styling to the project [In progress]
-  - [ ] Find out if we can use Sass for this
-  - [ ] Find out if we can use PostCSS with this
-  - [ ] Find out if we can use Autoprefixer with this
-  - [ ] Find out where we should save and deploy static files (images/stylesheets/fonts/downloads)
+    - [ ] Find out if we can use Sass for this
+    - [ ] Find out if we can use PostCSS with this
+    - [ ] Find out if we can use Autoprefixer with this
+    - [ ] Find out where we should save and deploy static files (images/stylesheets/fonts/downloads)
 - [ ] Find out how to deploy an app like this and seperate production mode from development mode
 - [ ] Add unit testing framework to the application
 - [ ] Add unit testing examples to the application
