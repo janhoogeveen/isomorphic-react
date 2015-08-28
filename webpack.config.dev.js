@@ -1,11 +1,12 @@
 var webpack = require('webpack');
+var path = require('path');
 
 module.exports = {
   devtool: 'inline-source-map',
   entry: [
     'webpack-dev-server/client?http://localhost:8081',
     'webpack/hot/only-dev-server',
-    './src/client/entry',
+    './src/client/entry'
   ],
   output: {
     path: __dirname + '/public/js/',
@@ -17,19 +18,19 @@ module.exports = {
     new webpack.NoErrorsPlugin(),
   ],
   resolve: {
-    extensions: ['', '.js']
+    extensions: ['', '.js', '.css']
   },
   module: {
     loaders: [
+      {
+        test: /\.css$/,
+        loaders: ['style-loader', 'css-loader']
+      },
       {
         test: /\.jsx?$/,
         loaders: ['react-hot', 'babel-loader?experimental'],
         exclude: /node_modules/
       },
-      {
-        test: /\.css$/,
-        loader: 'style!css'
-      }
     ]
   }
 };

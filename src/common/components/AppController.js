@@ -1,3 +1,4 @@
+import styles from './styles.css';
 import React from 'react';
 import { RouteHandler, Link } from 'react-router';
 
@@ -39,7 +40,7 @@ export default class AppController extends React.Component {
     });
 
     return (
-      <div className="app">
+      <div className={styles.app}>
         <p>This should become a sidebar with navigation</p>
         <ul className="navigation">
           {navItems}
