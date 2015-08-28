@@ -28,3 +28,4 @@ Now go to 0.0.0.0:3000 and that's it!
 * Find out how to deploy an app like this and seperate production mode from development mode
 * Add unit testing framework to the application
 * Add unit testing examples to the application
+* Add a Flux implementation to the app (Redux? Flux by Facebook?)
