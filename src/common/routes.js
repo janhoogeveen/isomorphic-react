@@ -7,7 +7,6 @@ import LoginHandler from './components/LoginHandler';
 
 export default (  
   <Route handler={AppController}>
-  	<DefaultRoute handler={HomeController} />
   	<Route name="login" handler={LoginHandler} path="/login" />
   </Route>
 );

@@ -5,7 +5,7 @@
 	"bitwise": true,
 	"camelcase": true,
 	"curly": true,
-	"devel": false,
+	"devel": true,
 	"eqeqeq": true,
 	"globalstrict": true,
 	"immed": true,
@@ -17,8 +17,11 @@
 	"regexp": true,
 	"undef": true,
 	"unused": true,
-	"strict": true,
+	"strict": false,
 	"trailing": true,
 	"smarttabs": true,
-	"esnext": true
+	"esnext": true,
+	"globals": {
+		"process": true
+	}
 }
